@@ -11,4 +11,3 @@ $ ps axu | grep pchalla
     $HADOOP_HOME/bin/hadoop fsck /path/to/file -files -blocks
 2. Impala cannot see the table created in Hive
     Impala-shell> invalidate metadata;
-3. This is show the code - Kanchana!
