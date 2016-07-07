@@ -9,4 +9,6 @@ $ ps axu | grep pchalla
 ### Hadoop:
 1. Hadoop fs lookup for block size?
     $HADOOP_HOME/bin/hadoop fsck /path/to/file -files -blocks
-2. 
+2. Impala cannot see the table created in Hive
+    Impala-shell> invalidate metadata;
+3. This is show the code - Kanchana!
